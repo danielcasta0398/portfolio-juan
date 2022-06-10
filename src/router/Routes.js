@@ -10,9 +10,9 @@ const Routes = () => {
     <>
       <Router>
         <ScrollTopBehaviour />
-        <Switch>          
-          <Route path="/home-light" component={HomeLight} />
-          <Route path="/" component={HomeDark} />
+        <Switch> 
+          <Route path="/" component={HomeDark} />         
+          <Route path="/home-light" component={HomeLight} />          
           <Route component={NotFound} />
         </Switch>
       </Router>
