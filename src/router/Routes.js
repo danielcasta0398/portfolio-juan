@@ -4,6 +4,7 @@ import HomeDark from "../views/all-home-version/HomeDark";
 import NotFound from "../views/NotFound";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ScrollTopBehaviour from "../components/ScrollTopBehaviour";
+import Preview from "../views/Preview";
 
 const Routes = () => {
   return (
@@ -11,8 +12,9 @@ const Routes = () => {
       <Router>
         <ScrollTopBehaviour />
         <Switch> 
-          <Route path="/" component={HomeDark} />         
-          <Route path="/home-light" component={HomeLight} />          
+          <Route exact path="/" component={Preview} />
+          <Route path="/home-light" component={HomeLight} />
+          <Route path="/home-dark" component={HomeDark} />                 
           <Route component={NotFound} />
         </Switch>
       </Router>
