@@ -6,11 +6,8 @@ const heroContent = {
   heroImage: "img/hero/dark.jpg",
   heroMobileImage: "img-mobile",
   heroTitleName: "juan daniel castaño castañeda",
-  heroDesignation: "programador full-tack",
-  heroDescriptions: `I'm a Tunisian based web designer & front‑end developer focused on
-  crafting clean & user‑friendly experiences, I am passionate about
-  building excellent software that improves the lives of those
-  around me.`,
+  heroDesignation: "programador full-stack",
+  heroDescriptions: `Soy emprendedor, proactivo, honesto, puntual ,trabajador, me gusta el trabajo en equipo con enfoque al resultado, con aprendizaje permanente, me apasiona lo que hago, tengo experiencia y experticia (2 años en manejos de HTML,CSS, JAVASCRIPT Y DIALOGFLOW).`,
   heroBtn: "mas sobre mi",
 };
 
