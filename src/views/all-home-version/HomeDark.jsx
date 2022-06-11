@@ -10,7 +10,7 @@ import Social from "../../components/Social";
 
 const menuItem = [
   { icon: "fa-home", menuName: "Inicio" },
-  { icon: "fa-user", menuName: "Sobre Mi" },
+  { icon: "fa-user", menuName: "SobreMi" },
   { icon: "fa-briefcase", menuName: "Portafolio" },
   { icon: "fa-envelope-open", menuName: "Contact" },
   { icon: "fa-comments", menuName: "Blog" },
@@ -26,11 +26,11 @@ const HomeDark = () => {
       </div>
       <Tabs>
         <div className="header">
-          <TabList className=" icon-menu  revealator-slideup revealator-once revealator-delay1">
+          <TabList className=" icon-menu  revealator-slideup revealator-once revealator-delay1">            
             {menuItem.map((item, i) => (
-              <Tab className="icon-box" key={i}>
-                <i className={`fa ${item.icon}`}></i>
-                <h2>{item.menuName}</h2>
+              <Tab className="icon-box" key={i}>          
+                <i className={`fa ${item.icon}`}></i>                         
+                {item.menuName === 'SobreMi' ? (<h2>Sobre&nbsp;Mi</h2>) : (<h2>{item.menuName}</h2>)}
               </Tab>
             ))}
           </TabList>

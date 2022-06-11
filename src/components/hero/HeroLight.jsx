@@ -3,16 +3,14 @@ import Modal from "react-modal";
 import Index from "../about/index";
 
 const heroContent = {
-  heroImage: "img/hero/light.jpg",
-  heroMobileImage: "img-mobile-light",
-  heroTitleName: "lucy milner",
-  heroDesignation: "web designer",
-  heroDescriptions: `I'm a Tunisian based web designer & front‑end developer focused on
-  crafting clean & user‑friendly experiences, I am passionate about
-  building excellent software that improves the lives of those
-  around me.`,
-  heroBtn: "more about me",
+  heroImage: "img/hero/dark.jpg",
+  heroMobileImage: "img-mobile",
+  heroTitleName: "juan daniel castaño castañeda",
+  heroDesignation: "programador full-stack",
+  heroDescriptions: `Soy emprendedor, proactivo, honesto, puntual ,trabajador, me gusta el trabajo en equipo con enfoque al resultado, con aprendizaje permanente, me apasiona lo que hago, tengo experiencia y experticia (2 años en manejos de HTML,CSS, JAVASCRIPT Y DIALOGFLOW).`,
+  heroBtn: "mas sobre mi",
 };
+
 
 const HeroLight = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,7 +37,7 @@ const HeroLight = () => {
               alt="hero man"
             />
             <h1 className="text-uppercase poppins-font">
-              I'm {heroContent.heroTitleName}.
+              Hola {heroContent.heroTitleName}.
               <span>{heroContent.heroDesignation}</span>
             </h1>
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>
