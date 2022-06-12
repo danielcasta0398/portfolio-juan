@@ -13,7 +13,7 @@ const menuItem = [
   { icon: "fa-user", menuName: "SobreMi" },
   { icon: "fa-briefcase", menuName: "Portafolio" },
   { icon: "fa-envelope-open", menuName: "Contact" },
-  { icon: "fa-comments", menuName: "Blog" },
+  //{ icon: "fa-comments", menuName: "Blog" },
 ];
 
 const HomeDark = () => {

@@ -3,8 +3,8 @@ import Modal from "react-modal";
 import Index from "../../components/about/index";
 
 const heroContent = {
-  heroImage: "img/hero/dark.jpg",
-  heroMobileImage: "img-mobile",
+  heroImage: "https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/users%2Ffoto_perfil.jpg?alt=media&token=9b3fc084-4ebd-4bc5-ad24-6a6a6cbdd1fd",
+  heroMobileImage: "prueba",
   heroTitleName: "juan daniel castaño castañeda",
   heroDesignation: "programador full-stack",
   heroDescriptions: `Soy emprendedor, proactivo, honesto, puntual ,trabajador, me gusta el trabajo en equipo con enfoque al resultado, con aprendizaje permanente, me apasiona lo que hago, tengo experiencia y experticia (2 años en manejos de HTML,CSS, JAVASCRIPT Y DIALOGFLOW).`,
@@ -31,7 +31,7 @@ const Hero = () => {
         <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
           <div>
             <img
-              src={`img/hero/${heroContent.heroMobileImage}.jpg`}
+              src={`https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/users%2FIMG_20220612_134030_2%20(2).jpg?alt=media&token=9857af8c-f00e-4aea-82c1-e8728c563daf`}
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
               alt="hero man"
             />
