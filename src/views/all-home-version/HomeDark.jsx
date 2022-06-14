@@ -12,7 +12,7 @@ const menuItem = [
   { icon: "fa-home", menuName: "Inicio" },
   { icon: "fa-user", menuName: "SobreMi" },
   { icon: "fa-briefcase", menuName: "Portafolio" },
-  { icon: "fa-envelope-open", menuName: "Contact" },
+  { icon: "fa-envelope-open", menuName: "Contacto" },
   //{ icon: "fa-comments", menuName: "Blog" },
 ];
 
@@ -76,7 +76,7 @@ const HomeDark = () => {
               <h1>
                 mi <span>portafolio</span>
               </h1>
-              <span className="title-bg">works</span>
+              <span className="title-bg">trabajos</span>
             </div>
             {/* End title */}
             <div

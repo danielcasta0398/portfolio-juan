@@ -70,7 +70,7 @@ const Portfolio = () => {
             >
               <figure onClick={toggleModalOne}>
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/users%2Fseendgo_img.png?alt=media&token=e82eb7e2-9718-4536-a128-a323bf76c08a"
+                  src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/users%2Fseendgobackground.png?alt=media&token=511e7ebb-4c76-42e1-97d4-7af2c6b60262"
                   alt="Portolio"                  
                 />
                 <div className=" hover-content-wrapper">
