@@ -23,7 +23,7 @@ const index = () => {
 
               <div className="col-12 d-block d-sm-none">
                 <img
-                  src="img/hero/img-mobile.jpg"
+                  src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/users%2FIMG_20220612_134030_2%20(2).jpg?alt=media&token=9857af8c-f00e-4aea-82c1-e8728c563daf"
                   className="img-fluid main-img-mobile"
                   alt="about avatar"
                 />

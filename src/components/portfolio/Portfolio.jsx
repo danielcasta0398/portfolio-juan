@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { Tabs, TabPanel } from "react-tabs";
 import Modal from "react-modal";
 import ModalOneContent from "./modal/ModalOneContent";
 import ModalTwoContent from "./modal/ModalTwoContent";
@@ -52,13 +52,13 @@ const Portfolio = () => {
 
   return (
     <Tabs>
-      <TabList className="portfolio-tab-list">
+      {/*<TabList className="portfolio-tab-list">
         <Tab>ALL</Tab>
         <Tab>LOGO</Tab>
         <Tab>VIDEO</Tab>
         <Tab>GRAPHIC DESIGN</Tab>
         <Tab>MOCKUP</Tab>
-      </TabList>
+        </TabList>*/}
 
       <div className="portfolio-tab-content">
         <TabPanel>
@@ -69,9 +69,12 @@ const Portfolio = () => {
               data-aos-delay="0"
             >
               <figure onClick={toggleModalOne}>
-                <img src="img/projects/project-1.jpg" alt="Portolio" />
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/users%2Fseendgo_img.png?alt=media&token=e82eb7e2-9718-4536-a128-a323bf76c08a"
+                  alt="Portolio"                  
+                />
                 <div className=" hover-content-wrapper">
-                  <span className="content-title">Mockup Project</span>
+                  <span className="content-title">SeendGo</span>
                 </div>
               </figure>
 
