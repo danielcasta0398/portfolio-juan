@@ -1639,6 +1639,7 @@ body.light .contact .custom-span-contact a {
     height: 230px;   
   }
 
+
   .title-section {
     padding-left: 15px;
     padding-right: 15px;
@@ -1986,7 +1987,7 @@ button:focus {
     padding: 0;
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     overflow: hidden;
     &::before {
       content: "";

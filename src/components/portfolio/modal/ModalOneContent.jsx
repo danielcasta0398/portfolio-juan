@@ -24,10 +24,11 @@ const ModalOneContent = () => {
 
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-code pr-2"></i>
-              <span className="project-label">Langages </span>:{" "}
+              <span className="project-label">Tecnologias </span>:{" "}
               <span className="ft-wt-600 uppercase">HTML, CSS, Javascript, PHP</span>
             </div>
             {/* End .col */}
+         
 
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-external-link pr-2"></i>
@@ -43,6 +44,11 @@ const ModalOneContent = () => {
               </span>
             </div>
             {/* End .col */}
+            <div className="col-12 col-sm-6 mb-2 description">              
+              <span className="project-label">Descripcion </span>:{" "}
+              <span className="ft-wt-600 uppercase">En este proyecto todo un equipo trabajamos en una plataforma encargada de adminstrar 
+              la toma de ordenes por whatsapp gracias a la inteligencia artidial de DialogFlow y gestion de entregas a domicilio</span>
+            </div>
           </div>
           {/* End .row */}
         </figcaption>
