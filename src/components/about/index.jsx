@@ -73,7 +73,7 @@ const index = () => {
         <div className="row">
           <div className="col-12">
             <h3 className="text-uppercase pb-5 mb-0 text-left text-sm-center custom-title ft-wt-600">
-              Proyectos <span>&</span> Educacion
+              Educacion
             </h3>
           </div>
           <div className="col-lg-6 m-15px-tb">

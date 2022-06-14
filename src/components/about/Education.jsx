@@ -2,26 +2,14 @@ import React from "react";
 
 const educationContent = [
   {
-    year: "2015",
-    degree: "ENGINEERING DEGREE",
-    institute: "OXFORD UNIVERSITY",
+    year: "2022",
+    degree: "back-end node.js",
+    institute: "academlo",
     details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
         adipisicing elit`,
+    img: `https://verified.cv:3000/v2/ims/image/15626248918796`    
   },
-  {
-    year: "2012",
-    degree: "MASTER DEGREE",
-    institute: "KIEV UNIVERSITY",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
-  },
-  {
-    year: "2009",
-    degree: "BACHELOR DEGREE ",
-    institute: "TUNIS HIGH SCHOOL",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
-  },
+
 ];
 
 const Education = () => {
@@ -38,6 +26,7 @@ const Education = () => {
             <span className="place open-sans-font">{val.institute}</span>
           </h5>
           <p className="open-sans-font">{val.details}</p>
+          <img src={val.img} alt="" width='500px'/>
         </li>
       ))}
     </ul>
