@@ -3,7 +3,7 @@ import Modal from "react-modal";
 import Index from "../about/index";
 
 const heroContent = {
-  heroImage: "img/hero/dark.jpg",
+  heroImage: "https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/users%2Ffoto_perfil.jpg?alt=media&token=9b3fc084-4ebd-4bc5-ad24-6a6a6cbdd1fd",
   heroMobileImage: "img-mobile",
   heroTitleName: "juan daniel castaño castañeda",
   heroDesignation: "programador full-stack",
@@ -32,12 +32,12 @@ const HeroLight = () => {
         <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
           <div>
             <img
-              src={`img/hero/${heroContent.heroMobileImage}.jpg`}
+              src={`https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/users%2FIMG_20220612_134030_2%20(2).jpg?alt=media&token=9857af8c-f00e-4aea-82c1-e8728c563daf`}
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
               alt="hero man"
             />
             <h1 className="text-uppercase poppins-font">
-              Hola {heroContent.heroTitleName}.
+              Hola soy {heroContent.heroTitleName}.
               <span>{heroContent.heroDesignation}</span>
             </h1>
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>

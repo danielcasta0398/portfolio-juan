@@ -10,11 +10,11 @@ import Social from "../../components/Social";
 import AnimatedCursor from "react-animated-cursor";
 
 const menuItem = [
-  { icon: "fa-home", menuName: "Home" },
-  { icon: "fa-user", menuName: "About" },
-  { icon: "fa-briefcase", menuName: "Portfolio" },
-  { icon: "fa-envelope-open", menuName: "Contact" },
-  { icon: "fa-comments", menuName: "Blog" },
+  { icon: "fa-home", menuName: "Inicio" },
+  { icon: "fa-user", menuName: "SobreMi" },
+  { icon: "fa-briefcase", menuName: "Portafolio" },
+  { icon: "fa-envelope-open", menuName: "Contacto" },
+  //{ icon: "fa-comments", menuName: "Blog" },
 ];
 
 const HomeLight = () => {
@@ -41,7 +41,7 @@ const HomeLight = () => {
             {menuItem.map((item, i) => (
               <Tab className="icon-box" key={i}>
                 <i className={`fa ${item.icon}`}></i>
-                <h2>{item.menuName}</h2>
+                {item.menuName === 'SobreMi' ? (<h2>Sobre&nbsp;Mi</h2>) : (<h2>{item.menuName}</h2>)}
               </Tab>
             ))}
           </TabList>
@@ -67,9 +67,9 @@ const HomeLight = () => {
             <div data-aos="fade-up" data-aos-duration="1200">
               <div className="title-section text-left text-sm-center">
                 <h1>
-                  ABOUT <span>ME</span>
+                  SOBRE<span>MI</span>
                 </h1>
-                <span className="title-bg">Resume</span>
+                <span className="title-bg">Resumen</span>
               </div>
               {/* End title */}
               <Index />
@@ -85,9 +85,9 @@ const HomeLight = () => {
               data-aos-duration="1200"
             >
               <h1>
-                my <span>portfolio</span>
+                Mi <span>portafolio</span>
               </h1>
-              <span className="title-bg">works</span>
+              <span className="title-bg">proyectos</span>
             </div>
             {/* End title */}
             <div
@@ -112,7 +112,7 @@ const HomeLight = () => {
               <h1>
                 get in <span>touch</span>
               </h1>
-              <span className="title-bg">contact</span>
+              <span className="title-bg">contacto</span>
             </div>
             <div
               className="container"

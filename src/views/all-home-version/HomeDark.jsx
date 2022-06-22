@@ -99,9 +99,9 @@ const HomeDark = () => {
               data-aos-duration="1200"
             >
               <h1>
-                get in <span>touch</span>
+                 <span>contacto</span>
               </h1>
-              <span className="title-bg">contact</span>
+              <span className="title-bg">contacto</span>
             </div>
             <div
               className="container"

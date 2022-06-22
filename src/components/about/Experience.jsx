@@ -4,17 +4,13 @@ const experienceContent = [
   {
     year: "2022",
     position: "HTML, CSS AND JAVASCRIPT",
-    compnayName: "Academlo",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
+    compnayName: "Academlo",   
     img: `https://verified.cv:3000/v2/ims/image/45360220408770`
   },
   {
     year: "2022",
     position: "Front-end react",
-    compnayName: "academlo",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
+    compnayName: "academlo",    
     img: `https://verified.cv:3000/v2/ims/image/20674399904656`
   },
   

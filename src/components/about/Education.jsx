@@ -5,8 +5,6 @@ const educationContent = [
     year: "2022",
     degree: "back-end node.js",
     institute: "academlo",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
     img: `https://verified.cv:3000/v2/ims/image/15626248918796`    
   },
 

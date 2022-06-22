@@ -36,7 +36,7 @@ const index = () => {
               {/* End personal info */}
 
               <div className="col-12 mt-1">
-                <a className="button" href="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/users%2FCV%20Juan%20Daniel%20Casta%C3%B1o%20Casta%C3%B1eda.pdf?alt=media&token=05480be4-2309-49b6-b741-ab349fb134f7" download>
+                <a className="button" href="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/users%2FCV%20Juan%20Daniel%20Casta%C3%B1o%20Casta%C3%B1eda.pdf?alt=media&token=75a38f23-fc98-4b18-8000-cd3acf149b3e" download>
                   <span className="button-text">Descargar CV</span>
                   <span className="button-icon fa fa-download"></span>
                 </a>

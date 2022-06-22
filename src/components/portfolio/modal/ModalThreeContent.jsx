@@ -18,7 +18,7 @@ const ModalThreeContent = () => {
       <figure>
         {/* Project Details Starts */}
         <figcaption>
-          <h3>Slider Project</h3>
+          <h3>Panel De Usuarios</h3>
           <div className="row open-sans-font">
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-file-text-o pr-2"></i>
@@ -36,8 +36,8 @@ const ModalThreeContent = () => {
 
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-code pr-2"></i>
-              <span className="project-label">Langages </span>:{" "}
-              <span className="ft-wt-600 uppercase">HTML, CSS, Javascript</span>
+              <span className="project-label">Lenguajes </span>:{" "}
+              <span className="ft-wt-600 uppercase">HTML, CSS, Javascript y React</span>
             </div>
             {/* End .col */}
 
