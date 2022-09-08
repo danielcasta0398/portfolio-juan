@@ -1,0 +1,12 @@
+.prueba{
+    justify-content: center;
+}
+
+.prueba h3{
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}

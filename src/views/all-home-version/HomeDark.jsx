@@ -7,6 +7,7 @@ import Portfolio from "../../components/portfolio/Portfolio";
 import Blog from "../../components/blog/Blog";
 import Contact from "../../components/Contact";
 import Social from "../../components/Social";
+import "./Dark.css"
 
 const menuItem = [
   { icon: "fa-home", menuName: "Inicio" },
@@ -108,16 +109,14 @@ const HomeDark = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
             >
-              <div className="row">
+              <div className="row prueba">
                 {/*  Left Side Starts */}
                 <div className="col-12 col-lg-4">
                   <h3 className="text-uppercase custom-title mb-0 ft-wt-600 pb-3">
-                    Don't be shy !
+                  ¿Que te parece si charlamos?
                   </h3>
                   <p className="open-sans-font mb-4">
-                    Feel free to get in touch with me. I am always open to
-                    discussing new projects, creative ideas or opportunities to
-                    be part of your visions.
+                    Si necesitas un programador con sueños, metas y vision. No dudes en pedirme cualquier informacion que necesites.  
                   </p>
                   <Address />
                   {/* End Address */}
@@ -128,9 +127,7 @@ const HomeDark = () => {
                 {/* Left Side Ends */}
 
                 {/*  Contact Form Starts  */}
-                <div className="col-12 col-lg-8">
-                  <Contact />
-                </div>
+                
                 {/*  Contact Form Ends */}
               </div>
             </div>

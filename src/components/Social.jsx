@@ -1,4 +1,5 @@
 import React from "react";
+import "../views/all-home-version/Dark.css"
 
 const SocialShare = [
   {
@@ -8,7 +9,7 @@ const SocialShare = [
   { iconName: "fa fa-github", link: "https://github.com/danielcasta0398" },
   {
     iconName: "fa fa-youtube",
-    link: "https://www.youtube.com/",
+    link: "https://www.youtube.com/channel/UCH5A0X7IgZ_DwuIWDEKFMLg",
   },
   { iconName: "fa fa-linkedin", link: "https://www.linkedin.com/in/juan-daniel-casta%C3%B1o-casta%C3%B1eda-392aa222b/" },
 ];
