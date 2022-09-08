@@ -55,7 +55,7 @@ const ModalOneContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <img src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/users%2Fseendgo_img.png?alt=media&token=e82eb7e2-9718-4536-a128-a323bf76c08a" alt="Portolio" />
+        <img src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/portfolio%2FDimensiones%20personalizadas%20895x552%20px.jpeg?alt=media&token=5eb9f632-4b04-47fd-a949-569945d1a104" alt="Portolio" />
         {/* Main Project Content Ends */}
       </figure>
     </div>

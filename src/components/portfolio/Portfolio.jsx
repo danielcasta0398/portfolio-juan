@@ -70,7 +70,7 @@ const Portfolio = () => {
             >
               <figure onClick={toggleModalOne}>
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/users%2Fseendgobackground.png?alt=media&token=511e7ebb-4c76-42e1-97d4-7af2c6b60262"
+                  src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/portfolio%2FDimensiones%20personalizadas%20895x552%20px.jpeg?alt=media&token=5eb9f632-4b04-47fd-a949-569945d1a104"
                   alt="Portolio"                  
                 />
                 <div className=" hover-content-wrapper">
@@ -109,7 +109,7 @@ const Portfolio = () => {
               data-aos-delay="100"
             >
               <figure onClick={toggleModalTwo} >
-                <img src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/users%2Flista%20compras.jpg?alt=media&token=4ae47bb1-fc50-40f3-a5db-ff30b32f0c9b" alt="Portolio" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/portfolio%2FLista%20compras.jpeg?alt=media&token=253d22a1-0aa6-41d7-88e5-402f48930a12" alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">Lista De Compras</span>
                 </div>
@@ -146,7 +146,7 @@ const Portfolio = () => {
               data-aos-delay="200"
             >
               <figure onClick={toggleModalThree}>
-                <img src="img/projects/project-3.jpg" alt="Portolio" />
+                <img src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/portfolio%2FGestor%20Usuarios.jpeg?alt=media&token=3f871084-47ad-4d95-a243-b2ad6d604dd3" alt="Portolio" />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">Panel Usuarios</span>
                 </div>
@@ -167,11 +167,60 @@ const Portfolio = () => {
                   {/* End close icon */}
 
                   <div className="box_inner portfolio">
-                    <ModalThreeContent />
+                    <ModalThreeContent 
+                      nameProject="Panel Usuarios"
+                      client={false}
+                      previewLink="https://statuesque-dragon-6bbd7f.netlify.app/"
+                      previewText="Pagina"
+                      lenguajesText={"HTML, CSS, Javascript y React"}
+                      repo = {{link :"https://github.com/danielcasta0398/appcreateusers", status: true}}
+                    />
                   </div>
                 </div>
               </Modal>
-             
+              
+              {/* End  ModalSixContent */}
+            </li>
+
+            <li
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="200"
+            >
+              <figure onClick={toggleModalThree}>
+                <img src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/portfolio%2Fforo.jpeg?alt=media&token=9e80d9d7-daf3-4a2b-bd9d-c674810aeab5" alt="Foro" />
+                <div className=" hover-content-wrapper">
+                  <span className="content-title">Foro</span>
+                </div>
+              </figure>
+
+              <Modal
+                isOpen={isOpen3}
+                onRequestClose={toggleModalThree}
+                contentLabel="My dialog"
+                className="custom-modal dark"
+                overlayClassName="custom-overlay dark"
+                closeTimeoutMS={500}
+              >
+                <div>
+                  <button className="close-modal" onClick={toggleModalThree}>
+                    <img src="/img/cancel.svg" alt="close icon" />
+                  </button>
+                  {/* End close icon */}
+
+                  <div className="box_inner portfolio">
+                    <ModalThreeContent 
+                      nameProject="Panel Usuarios"
+                      client={false}
+                      previewLink="https://statuesque-dragon-6bbd7f.netlify.app/"
+                      previewText="Pagina"
+                      lenguajesText={"HTML, CSS, Javascript y React"}
+                      repo = {{link :"https://github.com/danielcasta0398/appcreateusers", status: true}}
+                    />
+                  </div>
+                </div>
+              </Modal>
+              
               {/* End  ModalSixContent */}
             </li>
             {/* <!-- Portfolio Item Ends --> */}

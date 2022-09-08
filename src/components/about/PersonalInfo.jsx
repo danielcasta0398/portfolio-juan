@@ -4,7 +4,6 @@ const personalInfoContent = [
   { meta: "nombres", metaInfo: "Juan Daniel" },
   { meta: "apellidos", metaInfo: "Castaño Castañeda" },
   { meta: "Edad", metaInfo: "23 Años" },
-  { meta: "Nacionalidad", metaInfo: "Colombiana" },  
   { meta: "Telefono", metaInfo: "+34641009503" },
   { meta: "Email", metaInfo: "juancastano0398@gmail.com" }, 
 ];
