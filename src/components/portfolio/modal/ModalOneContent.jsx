@@ -1,12 +1,12 @@
 import React from "react";
 
-const ModalOneContent = () => {
+const ModalOneContent = ({ nameUser,typeUser,title, urlImg }) => {
   return (
-    <div className="slideshow">
-      <figure>
+    <div className="slideshow">       
+      <figure>      
         {/* Project Details Starts */}
         <figcaption>
-          <h3>seendgo</h3>
+          <h3>{title}</h3>
           <div className="row open-sans-font">
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-file-text-o pr-2"></i>
@@ -17,8 +17,8 @@ const ModalOneContent = () => {
 
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-user-o pr-2"></i>
-              <span className="project-label">Cliente </span>:{" "}
-              <span className="ft-wt-600 uppercase">SeendGo</span>
+              <span className="project-label">{typeUser} </span>:{" "}
+              <span className="ft-wt-600 uppercase">{nameUser}</span>
             </div>
             {/* End .col */}
 
@@ -55,7 +55,7 @@ const ModalOneContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <img src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/portfolio%2FDimensiones%20personalizadas%20895x552%20px.jpeg?alt=media&token=5eb9f632-4b04-47fd-a949-569945d1a104" alt="Portolio" />
+        <img src={urlImg} alt="Portolio" />
         {/* Main Project Content Ends */}
       </figure>
     </div>

@@ -67,36 +67,47 @@ const PortfolioLight = () => {
 
   return (
     <ul className="row grid">
-      <li className="direction-reveal">
-        <figure className="direction-reveal__card" onClick={toggleModalOne}>
-          <img src="img/projects/project-1.jpg" alt="Portolio" />
-          <div className=" direction-reveal__overlay direction-reveal__anim--enter">
-            <span className="direction-reveal__title">Image Project</span>
-          </div>
-        </figure>
+      <li
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="0"
+            >
+              <figure onClick={toggleModalOne}>
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/portfolio%2Fseendgo-portafolio.jpeg?alt=media&token=6ef88b26-0aba-4ee9-8eaa-33dff422cd26"
+                  alt="Portolio"
+                />
+                <div className=" hover-content-wrapper">
+                  <span className="content-title">SeendGo</span>
+                </div>
+              </figure>
 
-        {/* <!-- Portfolio Item Starts --> */}
-        <Modal
-          isOpen={isOpen}
-          onRequestClose={toggleModalOne}
-          contentLabel="My dialog"
-          className="custom-modal dark green"
-          overlayClassName="custom-overlay"
-          closeTimeoutMS={500}
-        >
-          <div>
-            <button className="close-modal" onClick={toggleModalOne}>
-              <img src="/img/cancel.svg" alt="close icon" />
-            </button>
-            {/* End close icon */}
+              {/* Start ModalOneContent */}
+              <Modal
+                isOpen={isOpen}
+                onRequestClose={toggleModalOne}
+                contentLabel="My dialog"
+                className="custom-modal dark"
+                overlayClassName="custom-overlay dark"
+                closeTimeoutMS={500}
+              >
+                <div>
+                  <button className="close-modal" onClick={toggleModalOne}>
+                    <img src="/img/cancel.svg" alt="close icon" />
+                  </button>
+                  {/* End close icon */}
 
-            <div className="box_inner portfolio">
-              <ModalOneContent />
-            </div>
-          </div>
-        </Modal>
-        {/* End  ModalOneContent */}
-      </li>
+                  <div className="box_inner portfolio">
+                    <ModalOneContent 
+                      typeUser="Empresa" 
+                      nameUser="Seendgo" 
+                      title="Seendgo"
+                    />
+                  </div>
+                </div>
+              </Modal>
+              {/* End  ModalOneContent */}
+            </li>
       {/* <!-- Portfolio Item Ends --> */}
 
       {/* <!-- Portfolio Item Starts --> */}

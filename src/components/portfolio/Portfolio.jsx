@@ -15,8 +15,8 @@ const Portfolio = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
- /* const [isOpen4, setIsOpen4] = useState(false);
-  const [isOpen5, setIsOpen5] = useState(false);
+  const [isOpen4, setIsOpen4] = useState(false);
+  /* const [isOpen5, setIsOpen5] = useState(false);
   const [isOpen6, setIsOpen6] = useState(false);
   const [isOpen7, setIsOpen7] = useState(false);
   const [isOpen8, setIsOpen8] = useState(false);
@@ -31,10 +31,10 @@ const Portfolio = () => {
   function toggleModalThree() {
     setIsOpen3(!isOpen3);
   }
-  /*function toggleModalFour() {
+  function toggleModalFour() {
     setIsOpen4(!isOpen4);
   }
-  function toggleModalFive() {
+  /*function toggleModalFive() {
     setIsOpen5(!isOpen5);
   }
   function toggleModalSix() {
@@ -68,10 +68,11 @@ const Portfolio = () => {
               data-aos-duration="1200"
               data-aos-delay="0"
             >
+              <div style={msgProject('green')}>Producción</div>
               <figure onClick={toggleModalOne}>
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/portfolio%2FDimensiones%20personalizadas%20895x552%20px.jpeg?alt=media&token=5eb9f632-4b04-47fd-a949-569945d1a104"
-                  alt="Portolio"                  
+                  src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/portfolio%2Fseendgo-portafolio.jpeg?alt=media&token=6ef88b26-0aba-4ee9-8eaa-33dff422cd26"
+                  alt="Portolio"
                 />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">SeendGo</span>
@@ -94,7 +95,12 @@ const Portfolio = () => {
                   {/* End close icon */}
 
                   <div className="box_inner portfolio">
-                    <ModalOneContent />
+                    <ModalOneContent
+                      typeUser="Empresa"
+                      nameUser="Seendgo"
+                      title="Seendgo"
+                      urlImg="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/portfolio%2Fpanel-seendgo.png?alt=media&token=1b974791-9581-4303-91a4-03be2b3e3e8e"
+                    />
                   </div>
                 </div>
               </Modal>
@@ -108,8 +114,11 @@ const Portfolio = () => {
               data-aos-duration="1200"
               data-aos-delay="100"
             >
-              <figure onClick={toggleModalTwo} >
-                <img src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/portfolio%2FLista%20compras.jpeg?alt=media&token=253d22a1-0aa6-41d7-88e5-402f48930a12" alt="Portolio" />
+              <figure onClick={toggleModalTwo}>
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/portfolio%2FLista%20compras.jpeg?alt=media&token=253d22a1-0aa6-41d7-88e5-402f48930a12"
+                  alt="Portolio"
+                />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">Lista De Compras</span>
                 </div>
@@ -146,7 +155,10 @@ const Portfolio = () => {
               data-aos-delay="200"
             >
               <figure onClick={toggleModalThree}>
-                <img src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/portfolio%2FGestor%20Usuarios.jpeg?alt=media&token=3f871084-47ad-4d95-a243-b2ad6d604dd3" alt="Portolio" />
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/portfolio%2FGestor%20Usuarios.jpeg?alt=media&token=3f871084-47ad-4d95-a243-b2ad6d604dd3"
+                  alt="Portolio"
+                />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">Panel Usuarios</span>
                 </div>
@@ -167,18 +179,21 @@ const Portfolio = () => {
                   {/* End close icon */}
 
                   <div className="box_inner portfolio">
-                    <ModalThreeContent 
+                    <ModalThreeContent
                       nameProject="Panel Usuarios"
                       client={false}
                       previewLink="https://statuesque-dragon-6bbd7f.netlify.app/"
                       previewText="Pagina"
                       lenguajesText={"HTML, CSS, Javascript y React"}
-                      repo = {{link :"https://github.com/danielcasta0398/appcreateusers", status: true}}
+                      repo={{
+                        link: "https://github.com/danielcasta0398/appcreateusers",
+                        status: true,
+                      }}
                     />
                   </div>
                 </div>
               </Modal>
-              
+
               {/* End  ModalSixContent */}
             </li>
 
@@ -187,8 +202,12 @@ const Portfolio = () => {
               data-aos-duration="1200"
               data-aos-delay="200"
             >
+              <div style={msgProject('orange')}>Desarrollo</div>
               <figure onClick={toggleModalThree}>
-                <img src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/portfolio%2Fforo.jpeg?alt=media&token=9e80d9d7-daf3-4a2b-bd9d-c674810aeab5" alt="Foro" />
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/portfolio%2Fforo.jpeg?alt=media&token=9e80d9d7-daf3-4a2b-bd9d-c674810aeab5"
+                  alt="Foro"
+                />
                 <div className=" hover-content-wrapper">
                   <span className="content-title">Foro</span>
                 </div>
@@ -209,19 +228,65 @@ const Portfolio = () => {
                   {/* End close icon */}
 
                   <div className="box_inner portfolio">
-                    <ModalThreeContent 
+                    <ModalThreeContent
                       nameProject="Panel Usuarios"
                       client={false}
                       previewLink="https://statuesque-dragon-6bbd7f.netlify.app/"
                       previewText="Pagina"
                       lenguajesText={"HTML, CSS, Javascript y React"}
-                      repo = {{link :"https://github.com/danielcasta0398/appcreateusers", status: true}}
+                      repo={{
+                        link: "https://github.com/danielcasta0398/appcreateusers",
+                        status: true,
+                      }}
                     />
                   </div>
                 </div>
               </Modal>
-              
+
               {/* End  ModalSixContent */}
+            </li>
+
+            <li
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="0"
+            >
+              <div style={msgProject('orange')}>Desarrollo</div>
+              <figure onClick={toggleModalFour}>
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/portfolio%2Fgetfer-portafolio.jpeg?alt=media&token=33e357e5-d5b4-425e-8130-235eaa8c57ca"
+                  alt="Portolio"
+                />
+                <div className=" hover-content-wrapper">
+                  <span className="content-title">Getfer</span>
+                </div>
+              </figure>
+
+              {/* Start ModalOneContent */}
+              <Modal
+                isOpen={isOpen4}
+                onRequestClose={toggleModalFour}
+                contentLabel="My dialog"
+                className="custom-modal dark"
+                overlayClassName="custom-overlay dark"
+                closeTimeoutMS={500}
+              >
+                <div>
+                  <button className="close-modal" onClick={toggleModalFour}>
+                    <img src="/img/cancel.svg" alt="close icon" />
+                  </button>
+                  {/* End close icon */}
+
+                  <div className="box_inner portfolio">
+                    <ModalOneContent
+                      typeUser="Empresa"
+                      nameUser="Getfer"
+                      title="Getfer"
+                    />
+                  </div>
+                </div>
+              </Modal>
+              {/* End  ModalOneContent */}
             </li>
             {/* <!-- Portfolio Item Ends --> */}
           </ul>
@@ -231,5 +296,22 @@ const Portfolio = () => {
     </Tabs>
   );
 };
+
+const msgProject = (color) => {
+  return (
+    {
+      zIndex: 1, 
+      position: "absolute", 
+      backgroundColor: color,
+      marginBottom: "27px",
+      bottom: "0px",
+      padding: "4px 8px",
+      borderRadius: "0 17px 17px 0"
+  
+    }
+  )
+}
+
+console.log(msgProject());
 
 export default Portfolio;
