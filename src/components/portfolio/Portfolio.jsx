@@ -114,6 +114,7 @@ const Portfolio = () => {
               data-aos-duration="1200"
               data-aos-delay="100"
             >
+              <div style={msgProject('#33B2FF')}>Case Study</div>
               <figure onClick={toggleModalTwo}>
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/portfolio%2FLista%20compras.jpeg?alt=media&token=253d22a1-0aa6-41d7-88e5-402f48930a12"
@@ -154,6 +155,7 @@ const Portfolio = () => {
               data-aos-duration="1200"
               data-aos-delay="200"
             >
+              <div style={msgProject('#33B2FF')}>Case Study</div>
               <figure onClick={toggleModalThree}>
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/blogs-7c3e0.appspot.com/o/portfolio%2FGestor%20Usuarios.jpeg?alt=media&token=3f871084-47ad-4d95-a243-b2ad6d604dd3"
